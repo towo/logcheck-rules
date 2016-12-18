@@ -1,0 +1,18 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+: 11: [ [:alnum:]]*\[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+: 11: Normal Shutdown, Thank you for playing \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Read from socket failed: Connection reset by peer \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\: PAM service(sshd) ignoring max retries; [[:digit:]]+ > [[:digit:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\: error: Received disconnect from [.[:digit:]]+: 3: .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Unable to negotiate a key exchange method \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+: 3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [:.[:xdigit:]]+: 3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [:.[:xdigit:]]+ port [0-9]+:3: com.jcraft.jsch.JSchException: Auth fail \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Unable to negotiate with [.[:digit:]]{4,15} port [[:digit:]]+: no matching host key type found. Their offer: [-,[:alnum:]]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client [,-@.[:alnum:]]+ server [,-.@[:alnum:]]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification 'GET / HTTP/1.1' from [.[:digit:]]+ port [[:digit:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection reset by [:.[:xdigit:]]+ port [0-9]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Unable to negotiate with [[:digit:].]+ port [[:digit:]]+: no matching key exchange method found: Their offer: [@[:alnum:]-]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [:.[:xdigit:]]+ port [0-9]+:14: Unable to connect using the available authentication methods \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '' from [.[:digit:]]+ port [[:digit:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Unable to negotiate with [.[:digit:]]{4,15} port [[:digit:]]+: no matching cipher found: client [-,@[:alnum:]]+ server [-,@[:alnum:]]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Unable to negotiate with [.[:digit:]]{4,15} port [[:digit:]]+: no matching cipher found. Their offer: [,@.[:alnum:]-]+ \[preauth\]$
