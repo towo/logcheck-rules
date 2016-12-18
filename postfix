@@ -1,0 +1,5 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: improper command pipelining after AUTH from [.[:alnum:]]+\[[.[:digit:]]+\]: QUIT\r\n$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: improper command pipelining after DATA from [[:alnum:]]+\[[.[:digit:]]+\]:$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: improper command pipelining after HELO from [.[:alnum:]]+\[[.[:digit:]]+\]: QUIT\r\n$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: SSL_accept error from [[:alnum:].-]+\[[[:digit:].]+\]: Connection timed out$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: warning: hostname [._[:alnum:]-]+ does not resolve to address [.[:digit:]]+:?.*$
